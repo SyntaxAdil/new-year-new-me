@@ -143,3 +143,34 @@ header .hero-con {
 
   }
 }
+#plan-sec{
+    text-align: center;
+    h2{
+        color: var(--dark-1);
+        font-size: var(--fs-40);
+        margin-bottom: 50px;
+        font-weight: 700;
+    }
+    .flex{
+        justify-content: space-between;
+
+    }
+    .plan-card{
+        img{
+            margin-bottom: 20px;
+        }
+        h4{
+            font-size: var(--fs-30);
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--dark-1);
+
+        }
+        p{
+            color: var(--dark-3);
+            font-size: var(--fs-25);
+
+        }
+    }
+
+}
