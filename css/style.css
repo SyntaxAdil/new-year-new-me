@@ -174,3 +174,24 @@ header .hero-con {
     }
 
 }
+
+#banner-sec{
+    padding: 59px 64px;
+    background:url(../images/gradient2.png)center center /cover no-repeat, url(../images/watch.png)center center /cover no-repeat;
+    
+    border-radius: 5px;
+    .banner-con{
+        max-width: 459px;
+        h1{
+            color: var(--text-white);
+            font-size: var(--fs-40);
+            margin-bottom: 24px;
+            
+        }
+        .btn{
+            background: var(--text-white);
+            color: var(--btn-bg-primary);
+            width: max-content;
+        }
+    }
+}
