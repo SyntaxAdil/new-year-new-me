@@ -1,0 +1,145 @@
+:root {
+  --btn-bg-primary: #f15b22;
+  --text-white: #ffffff;
+  --dark-1: #151414;
+  --dark-2: #151414;
+  --dark-3: #737272;
+  --dark-4: #a2a1a1;
+  --dark-5: #d0d0d0;
+  --dark-6: #e8e8e8;
+  --dark-7: #f3f3f3;
+  --green: #16d887;
+  --fs-65: 65px;
+  --fs-16: 16px;
+  --fs-20: 20px;
+  --fs-40: 40px;
+  --fs-30: 30px;
+  --fs-45: 45px;
+  --fs-18: 18px;
+  --fs-25: 25px;
+  --lg: linear-gradient(#16d887, #f15b22);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body,
+.font-work-sans {
+  font-family: "Work Sans", "Times New Roman", Times, serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+img {
+  vertical-align: middle;
+}
+.container {
+  width: 71%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 20px 25px;
+  background: var(--btn-bg-primary);
+  color: var(--text-white);
+  font-size: var(--fs-20);
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-7px);
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pt-130 {
+  padding-top: 130px;
+}
+
+/* main  */
+header {
+  padding: 216px 0 166px;
+  background: url(../images/banner/banner1.png) center center / cover no-repeat;
+  background-attachment: fixed;
+}
+header .flex {
+  justify-content: flex-end;
+}
+header .hero-con {
+  text-align: right;
+  max-width: 512px;
+}
+header .hero-con {
+  h1 {
+    font-size: var(--fs-65);
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--dark-1);
+  }
+  p {
+    margin-bottom: 32px;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--dark-2);
+  }
+}
+
+#about-sec .flex {
+  justify-content: space-between;
+  align-items: center;
+}
+#about-sec {
+  .about-img {
+    max-width: 569px;
+    img {
+      width: 100%;
+    }
+  }
+  .about-con{
+    max-width: 416px;
+    h3{
+        color: var(--dark-1);
+        font-size: var(--fs-40);
+        margin-bottom: 24px;
+    }
+    p{
+        margin-bottom: 16px;
+        color: var(--dark-2);
+        font-size: var(--fs-16);
+
+    }
+    ul li{
+        margin: 0 0 8px;
+        display: flex;
+        align-items: center;
+
+    }
+    ul li::before{
+        content: "✔";
+        color: var(--green);
+        margin-right: 10px;
+        font-size:24px;        
+    }
+
+  }
+}
