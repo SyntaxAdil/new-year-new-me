@@ -111,6 +111,7 @@ header .hero-con {
 #about-sec {
   .about-img {
     max-width: 569px;
+    
     img {
       width: 100%;
     }
